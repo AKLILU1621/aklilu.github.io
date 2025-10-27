@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
 
-  <!-- Google Font -->
+  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Inline CSS -->
+  
   <style>
-    /* COLOR VARIABLES */
+  
     :root {
       --color-sky: #87CEEB;
       --color-sky-light: #E3F2FD;
@@ -23,7 +23,7 @@
       --color-footer-text: #FFFFFF;
     }
 
-    /* RESET & FONT */
+    
     * {
       margin: 0;
       padding: 0;
@@ -42,7 +42,7 @@
       color: inherit;
     }
 
-    /* HEADER */
+    
     header {
       position: fixed;
       width: 100%;
@@ -84,7 +84,7 @@
       color: var(--color-accent);
     }
 
-    /* HAMBURGER MENU */
+    
     .hamburger {
       display: none;
       flex-direction: column;
@@ -98,7 +98,7 @@
       margin: 4px 0;
     }
 
-    /* HERO SECTION */
+    
     .hero {
       background: linear-gradient(135deg, #87CEEB, #B3E5FC);
       color: #fff;
@@ -137,7 +137,7 @@
       color: #fff;
     }
 
-    /* PROJECTS */
+    
     .projects {
       padding: 80px 20px;
       text-align: center;
@@ -164,7 +164,7 @@
       box-shadow: 0 5px 15px rgba(0,0,0,0.15);
     }
 
-    /* SKILLS */
+  
     .skills {
       background: var(--color-sky);
       padding: 80px 20px;
@@ -193,7 +193,7 @@
       background: var(--color-accent);
     }
 
-    /* CONTACT */
+    
     .contact {
       padding: 80px 20px;
       text-align: center;
@@ -238,7 +238,7 @@
       background: var(--color-accent-dark);
     }
 
-    /* FOOTER */
+    
     footer {
       background: var(--color-footer-bg);
       color: var(--color-footer-text);
@@ -246,7 +246,7 @@
       padding: 15px 0;
     }
 
-    /* MEDIA QUERIES */
+    
     @media(max-width: 768px) {
       nav ul {
         display: none;
@@ -272,7 +272,7 @@
 </head>
 
 <body>
-  <!-- HEADER / NAVIGATION -->
+  
   <header>
     <div class="container">
       <h1 class="logo">MyPortfolio</h1>
@@ -292,7 +292,7 @@
     </div>
   </header>
 
-  <!-- HOME SECTION -->
+  
   <section id="home" class="hero">
     <div class="hero-content">
       <img src="https://placekitten.com/200/200" alt="Profile Picture">
@@ -302,7 +302,7 @@
     </div>
   </section>
 
-  <!-- PROJECTS SECTION -->
+  
   <section id="projects" class="projects">
     <h2>My Projects</h2>
     <div class="project-grid">
@@ -324,7 +324,7 @@
     </div>
   </section>
 
-  <!-- SKILLS SECTION -->
+  
   <section id="skills" class="skills">
     <h2>My Skills</h2>
     <div class="skills-grid">
@@ -336,7 +336,7 @@
     </div>
   </section>
 
-  <!-- CONTACT SECTION -->
+  
   <section id="contact" class="contact">
     <h2>Contact Me</h2>
     <form>
@@ -347,16 +347,16 @@
     </form>
   </section>
 
-  <!-- FOOTER -->
+  
   <footer>
     <p>&copy; 2025 AKLILU. All Rights Reserved.</p>
   </footer>
 
-  <!-- Inline JavaScript -->
+
   <script>
     console.log("Welcome to Aklilu portfolio!");
 
-    // Smooth scroll for nav links
+    
     document.querySelectorAll('nav a').forEach(link => {
       link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -366,7 +366,7 @@
       });
     });
 
-    // Hamburger toggle
+  
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('nav ul');
 
@@ -376,3 +376,4 @@
   </script>
 </body>
 </html>
+
