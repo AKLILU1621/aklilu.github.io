@@ -1,4 +1,4 @@
-/* COLOR VARIABLES */
+
 :root {
   --color-sky: #87CEEB;
   --color-sky-light: #E3F2FD;
@@ -10,7 +10,7 @@
   --color-footer-text: #FFFFFF;
 }
 
-/* RESET & FONT */
+
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ a {
   color: inherit;
 }
 
-/* HEADER */
+
 header {
   position: fixed;
   width: 100%;
@@ -71,7 +71,7 @@ nav ul li a:hover {
   color: var(--color-accent);
 }
 
-/* HAMBURGER MENU */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -85,7 +85,6 @@ nav ul li a:hover {
   margin: 4px 0;
 }
 
-/* HERO SECTION */
 .hero {
   background: linear-gradient(135deg, #87CEEB, #B3E5FC);
   color: #fff;
@@ -124,7 +123,7 @@ nav ul li a:hover {
   color: #fff;
 }
 
-/* PROJECTS */
+
 .projects {
   padding: 80px 20px;
   text-align: center;
@@ -151,7 +150,7 @@ nav ul li a:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
-/* SKILLS */
+
 .skills {
   background: var(--color-sky);
   padding: 80px 20px;
@@ -180,7 +179,7 @@ nav ul li a:hover {
   background: var(--color-accent);
 }
 
-/* CONTACT */
+
 .contact {
   padding: 80px 20px;
   text-align: center;
@@ -225,7 +224,7 @@ nav ul li a:hover {
   background: var(--color-accent-dark);
 }
 
-/* FOOTER */
+
 footer {
   background: var(--color-footer-bg);
   color: var(--color-footer-text);
@@ -233,7 +232,7 @@ footer {
   padding: 15px 0;
 }
 
-/* MEDIA QUERIES */
+
 @media(max-width: 768px) {
   nav ul {
     display: none;
@@ -255,3 +254,4 @@ footer {
     display: flex;
   }
 }
+
